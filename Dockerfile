@@ -1,4 +1,4 @@
-FROM alpine
+FROM ubuntu
 
 ARG version="1432"
 LABEL maintainer="github@aram.nubmail.ca"
