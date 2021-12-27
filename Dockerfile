@@ -25,6 +25,9 @@ RUN \
 
 COPY conf.sh /usr/local/bin/conf.sh
 COPY start.sh /usr/local/bin/start.sh
+RUN \
+ chmod +x /usr/local/bin/conf.sh && \
+ chmod +x /usr/local/bin/start.sh 
 
 # ports and volumes
 EXPOSE 7777
