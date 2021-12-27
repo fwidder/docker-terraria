@@ -1,4 +1,4 @@
-FROM quay.io/justcontainers/base
+FROM alpine
 
 ARG version="1432"
 LABEL maintainer="github@aram.nubmail.ca"
