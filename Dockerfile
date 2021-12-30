@@ -7,7 +7,8 @@ ADD "https://terraria.org/api/download/pc-dedicated-server/terraria-server-${ver
 RUN \
  echo "**** install terraria ****" && \
  apt-get update && \
- apt-get install -y unzip && \
+ apt-get upgrade --yes && \
+ apt-get install --yes unzip && \
  mkdir -p /root/.local/share/Terraria && \
  echo "{}" > /root/.local/share/Terraria/favorites.json && \
  mkdir -p /app/terraria/bin && \
