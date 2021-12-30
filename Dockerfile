@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:latest
 
 ARG version="1432"
 LABEL maintainer="florian.widder@live.de"
