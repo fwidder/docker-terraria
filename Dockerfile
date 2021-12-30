@@ -1,7 +1,7 @@
 FROM ubuntu
 
 ARG version="1432"
-LABEL maintainer="github@aram.nubmail.ca"
+LABEL maintainer="florian.widder@live.de"
 
 ADD "https://terraria.org/api/download/pc-dedicated-server/terraria-server-${version}.zip" /tmp/terraria.zip
 RUN \
